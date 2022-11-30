@@ -1,0 +1,125 @@
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('./images/tinywow_Coding-Challenge-Image_8827213.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.right-block {
+  position: absolute;
+  left: 0px;
+  background-color: #611818;
+  height: 100vh;
+  padding: 5px;
+  margin: 0;
+}
+.plus-btn {
+  height: 40px;
+}
+.plus-btn:hover, .social-icon:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+.socials {
+  position: relative;
+  bottom: -22%;
+}
+.row p {
+  font-size: 18px;
+}
+.pop-up-block {
+  position: absolute;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  max-width: 580px;
+  max-height: 702px;
+  color: #505050;
+  box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.59);
+-webkit-box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.59);
+z-index: 100;
+}
+
+.pop-up-close, .pop-up-title {
+  color: #611818;
+}
+.pop-up-close {
+  align-items: flex-start;
+  justify-content: flex-start;
+  top: -5%;
+  color: #611818;
+  cursor: pointer;
+}
+.pop-up-close:hover {
+  color: red;
+}
+.read-more {
+  width: 60%;
+  background: rgb(97,24,24);
+background: linear-gradient(90deg, rgba(97,24,24,1) 0%, rgba(163,103,84,1) 100%);
+letter-spacing: 0.08em;
+}
+.pop-up-hr {
+  height: 2px;
+  width: 70%;
+  background: rgb(97,24,24);
+background: linear-gradient(90deg, rgba(97,24,24,1) 0%, rgb(255, 255, 255) 100%);
+}
+
+.pop-up-paragraph {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.pop-up-title {
+  letter-spacing: 0.25em;
+  font-size: 3em;
+}
+.social-icon {
+  height: 50px;
+  font-size: 30px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+.text {
+  z-index: 10;
+  color: white;
+}
+.not-active {
+	display: none !important;
+}
+.explore-title {
+  font-size: 15vw;
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    position: absolute;
+    bottom: 12%;
+    left: 12%;
+  }
+  .pop-up-block {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+  }
+  .socials {
+    position: static;
+  }
+  .pop-up-paragraph {
+    font-size: 16px;
+    line-height: 2.5vw;
+  }
+}
