@@ -1,5 +1,5 @@
 # Cozy-Earth-Coding-Challenge
-A landing page with animations
+A landing page with animations to demonstrate my skills with frontend web development
 
 ## Table of Contents
   * [Overview](https://github.com/WillShaner/Cozy-Earth-Coding-Challenge/edit/main/README.md#overview)
@@ -32,7 +32,7 @@ A landing page with animations
    - Bootstrap
 
 ### What I learned
-  This project was great for working on my animation skills.
+  This project was great for working on my animation skills. The design allowed for me to layout the page for smaller screens how I saw fit.
  
 
 
