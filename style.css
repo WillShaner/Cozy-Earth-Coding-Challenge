@@ -101,7 +101,8 @@ background: linear-gradient(90deg, rgba(97,24,24,1) 0%, rgb(255, 255, 255) 100%)
 	display: none !important;
 }
 .explore-title {
-  font-size: 15vw;
+  font-size: 7em;
+  text-shadow: 5px 5px rgb(66, 66, 66);
 }
 
 @media screen and (min-width: 768px) {
@@ -117,6 +118,10 @@ background: linear-gradient(90deg, rgba(97,24,24,1) 0%, rgb(255, 255, 255) 100%)
   }
   .socials {
     position: static;
+  }
+  .explore-title {
+    font-size: 15vw;
+    text-shadow: 0 0;
   }
   .pop-up-paragraph {
     font-size: 16px;
