@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+  .text {
+    position: absolute;
+    bottom: 12%;
+    left: 12%;
+  }
+
+  .pop-up {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+
+    &-title {
+      font-size: 5vw;
+    }
+
+    &-paragraph {
+      font-size: 14px;
+      line-height: 2.3vw;
+    }
+  }
+
+  .socials {
+    position: static;
+  }
+
+  .explore-title {
+    font-size: 15vw;
+    text-shadow: 0 0;
+  }
+
+}
+
+@media screen and (max-height: 550px) {
+  .pop-up {
+    position: absolute;
+    top: 10%;
+    height: fit-content;
+
+    &-paragraph {
+      height: 30vh;
+      overflow-y: scroll;
+    }
+  }
+
+  body {
+    height: 80vmax;
+  }
+
+  .right-block {
+    height: 80vmax;
+  }
+}

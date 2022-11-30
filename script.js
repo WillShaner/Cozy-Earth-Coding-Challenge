@@ -1,4 +1,4 @@
-const popUp = document.querySelector('.pop-up-block')
+const popUp = document.querySelector('.pop-up')
 const text = document.querySelector('.text');
 const socials = document.querySelector('.socials');
 const content = document.querySelector('.pop-up-content')

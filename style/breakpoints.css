@@ -4,20 +4,10 @@
     bottom: 12%;
     left: 12%;
   }
-
-  .pop-up-block {
+  .pop-up {
     position: absolute;
     bottom: 20%;
     left: 20%;
-  }
-
-  .socials {
-    position: static;
-  }
-
-  .explore-title {
-    font-size: 15vw;
-    text-shadow: 0 0;
   }
   .pop-up-title {
     font-size: 5vw;
@@ -26,25 +16,30 @@
     font-size: 14px;
     line-height: 2.3vw;
   }
+  .socials {
+    position: static;
+  }
+  .explore-title {
+    font-size: 15vw;
+    text-shadow: 0 0;
+  }
 }
-
 @media screen and (max-height: 550px) {
-  .pop-up-block {
+  .pop-up {
     position: absolute;
     top: 10%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
   }
-
   .pop-up-paragraph {
     height: 30vh;
     overflow-y: scroll;
   }
-
   body {
     height: 80vmax;
   }
-
   .right-block {
     height: 80vmax;
   }
-}
+}/*# sourceMappingURL=breakpoints.css.map */
