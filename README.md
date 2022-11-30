@@ -26,33 +26,15 @@ A landing page with animations
 ## Development
 ### Tech Stack
   For this project I used...
-    - HTML5
-    - CSS3
-    - Javascript
-    - Bootstrap
+   - HTML5
+   - CSS3
+   - Javascript
+   - Bootstrap
 
 ### What I learned
-  This project was a great introduction to GSAP's Scrolltrigger library and the overall markup of GSAP.
-  ```javascript
-  gsap.to(boxes, {
-  x: () => {
-    return -(container.scrollWidth - document.body.offsetWidth) + 'px';
-  },
-  ease: 'sine',
-  scrollTrigger: {
-    trigger: boxes,
-    start: () => 'end end',
-    end: () => {
-      return '+=' + container.scrollWidth;
-    },
-    scrub: true,
-    pin: document.querySelector('.container-fluid'),
-    anticipatePin: 1,
-  },
-});
-```
-I also learned about formatting images for minimizing load time by properly sizing images
-and converting them to webp format.
+  This project was great for working on my animation skills.
+ 
+
 
 ## Author
 

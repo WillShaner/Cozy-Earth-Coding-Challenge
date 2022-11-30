@@ -5,6 +5,7 @@ const content = document.querySelector('.pop-up-content')
 const plusBtn = document.querySelector('.plus-btn');
 const exploreTitle = document.querySelector('.explore-title')
 let clickCount = false;
+
 window.onload = function () {
   exploreTitle.classList.add('load')
 }
