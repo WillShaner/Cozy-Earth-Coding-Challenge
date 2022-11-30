@@ -7,11 +7,11 @@ const exploreTitle = document.querySelector('.explore-title')
 let clickCount = false;
 
 window.onload = function () {
-  exploreTitle.classList.add('load')
+  text.classList.remove('not-active')
+  text.classList.add('load')
 }
 const popUpOpen = () => {
   if (clickCount == false) {
-    exploreTitle.classList.remove('load')
     text.classList.add('fade-out')
     popUp.classList.remove("not-active")
     popUp.classList.add('scale-in')

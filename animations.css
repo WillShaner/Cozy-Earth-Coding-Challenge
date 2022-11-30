@@ -1,6 +1,6 @@
 /* Explore initial animation */
 .load {
-  animation: fade-in 700ms ease-out 600ms both;
+  animation: fade-in 1.5s ease-in both;
 }
 
 /* on pop-up close */
