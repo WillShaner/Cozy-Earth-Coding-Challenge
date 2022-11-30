@@ -19,9 +19,11 @@
     font-size: 15vw;
     text-shadow: 0 0;
   }
-
+  .pop-up-title {
+    font-size: 5vw;
+  }
   .pop-up-paragraph {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 2.3vw;
   }
 }
