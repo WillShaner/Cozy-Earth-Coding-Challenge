@@ -20,7 +20,7 @@ A landing page with animations to demonstrate my skills with frontend web develo
 ![App Screenshot](/images/site-screenshot.webp)
 
 ### Links
-  * [Live Site](https://dynamic-travesseiro-58dba1.netlify.app/)
+  * [Live Site](https://willshaner.github.io/Cozy-Earth-Coding-Challenge/)
   * [Github Reop](https://github.com/WillShaner/Cozy-Earth-Coding-Challenge)
 
 ## Development
